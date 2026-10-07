@@ -1,0 +1,29 @@
+# Competition/private data
+train/
+test/
+*.wav
+train.csv
+test.csv
+sample_submission.csv
+
+# Generated features / transcripts / submissions / checkpoints
+*.npz
+*_features.csv
+*_transcripts.csv
+submission*.csv
+*.pt
+*.pth
+*.ckpt
+
+# Local environment/cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.cache/
+
+# Secrets
+.env
+*.key
